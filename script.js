@@ -2,7 +2,6 @@
 function showMessage() {
     alert("I'm sorry for my behaviour");
 }
-
 document.addEventListener("DOMContentLoaded", function () {
     const greetingCard = document.querySelector(".greeting-card");
     greetingCard.style.transform = "scale(0.95)";
